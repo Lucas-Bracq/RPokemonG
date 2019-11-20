@@ -4,31 +4,34 @@ namespace RPokemonG {
 	class Nature {
 
 		Map<Nature,float[5]> nature;
-		byte i = 0;
-		byte i = 0;
 
-		//OUVERTURE FICHIER
 
-		while(true/*FIN FICHIER*/){
-			while(char != ';'){
-				effet float[5];
-				while(char != ','){
-					if(char == '2') effet[i]=1.1;
-					else if(char == '0') effet[i]=0.9;
-					else(char == '1') effet[i]=1.0;
-					++i;
-					//DEPLACEMENT CHAR DE LECTURE
-				}
-				nature[i] = effet;
-				++j;
-			}
-		}
+        public void setNature() {
+            byte i = 0;
+            byte j = 0;
+            char c;
+            //OUVERTURE FICHIER
+
+            while (true) {
+                while (c != ';') {
+                    float[5] effet;
+                    while (c != ',') {
+                        if (c == '2') effet[i] = 1.1;
+                        else if (c == '0') effet[i] = 0.9;
+                        else effet[i] = 1.0;
+                        ++i;
+                        //DEPLACEMENT CHAR DE LECTURE
+                    }
+                    this.nature[i] = effet;
+                    ++j;
+                }
+            }
+        }
 
 		private float getEffet(){
-			return 
+    return 2;
 		} 
 
-		float[] effet;
 		private enum Nat {
 			assure,
 			bizzare,
