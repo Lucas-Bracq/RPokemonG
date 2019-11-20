@@ -33,12 +33,12 @@ namespace RPokemonG {
 
 			this.currPv = pv;
 			this.currAttaque = attaque;
-			this.currDefense = defense;
-			this.currVitesse = vitesse;
-			this.currAttaqueSpe = attaqueSpe;
-			this.currDefenseSpe = defenseSpe
+            this.currAttaqueSpe = attaqueSpe;
+            this.currDefense = defense;
+            this.currDefenseSpe = defenseSpe;
+            this.currVitesse = vitesse;
 
-			this.talent = talent;
+            this.talent = talent;
 			this.type = type;
 
 			this.etat = 1;
