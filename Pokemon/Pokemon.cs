@@ -27,7 +27,9 @@ namespace RPokemonG {
 		private int currAttaqueSpe;
 		private int currDefense;
 		private int currDefenseSpe;
-		private int currVitesse; 
+		private int currVitesse;
+		private float precision;
+		private float esquive;
 
 		public Pokemon (int pv, int attaque, int attaqueSpe, int defense, int defenseSpe, int vitesse, PokemonType type, string espece, Talent talent, Nature nature, string description){
 
@@ -45,7 +47,6 @@ namespace RPokemonG {
 			this.statut = Statut.nul;
 
 			this.espece = espece;
-
 		}
 
 		public void attaquer(Capacite capacite, Pokemon cible){
@@ -109,6 +110,21 @@ namespace RPokemonG {
 	    	this.currVitesse = vitesse;
 	    }
 
+		public float getPrecision(){
+			return precision;
+		}
+
+		public void setPrecision(float precision){
+			this.precision = precision;
+		}
+
+		public float getEsquive(){
+			return esquive;
+		}
+
+		public void setEsquive(float esquive){
+			this.esquive = esquive;
+		}
 	    public String getEspece() {
 	        return espece;
 	    }

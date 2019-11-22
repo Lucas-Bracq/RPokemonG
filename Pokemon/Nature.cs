@@ -5,13 +5,17 @@ namespace RPokemonG {
 
 		Map<Nature,float[5]> nature;
 
-
+		//https://docs.microsoft.com/en-us/dotnet/standard/io/composing-streams?redirectedfrom=MSDN
         public void setNature() {
             byte i = 0;
             byte j = 0;
             char c;
+			string file = "../Fichier/nature.txt";
             //OUVERTURE FICHIER
-
+			if(!File.Exists(file)){
+				Console.WriteLine(file + " does not exist!");
+            	return;
+			}
             while (true) {
                 while (c != ';') {
                     float[5] effet;

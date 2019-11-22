@@ -7,7 +7,7 @@ namespace RPokemonG {
         public string categorie;
         public Type type;
         public int pp;
-        public int puissance;
+        //public int puissance;
         public int precision;
         public string description;
 
@@ -52,7 +52,7 @@ namespace RPokemonG {
         }
 
         public void utiliser(Pokemon cible) {
-            cible.setPV(cible.getPv() - puissance);
+            --pp;
         }
 
         public int getPrecision() {
