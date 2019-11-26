@@ -1,8 +1,6 @@
-using unityEngine;
-
 namespace RPokemonG{
-    public abstract class CapaciteSpe : Capacite{
-        private int puissance;
+    abstract class CapaciteSpe : Capacite{
+        protected int puissance;
         public CapaciteSpe() : base(){
             this.categorie = "speciale";
         }

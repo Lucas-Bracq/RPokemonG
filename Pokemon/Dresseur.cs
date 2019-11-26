@@ -1,10 +1,10 @@
-using Unity Engine; 
+using System;
 
-nasmespace RPokemonG { 
+namespace RPokemonG { 
 	
 	class Dresseur { 
-		public Pokemon[] ListePokemon = new Pokemon[3]; 
-		/*
+		public Pokemon[] ListePokemon = new Pokemon[3];
+        /*
 		public byte nbVictoire; 
 		public byte nbDefaite; 
 		*/
@@ -14,17 +14,17 @@ nasmespace RPokemonG {
         }
 
         public void setListePokemon(Pokemon membre) {
-        	int nbPokemon;
-			for (nbPokemon = 0; nbPokemon < ListePokemon.size() - 1; nbPokemon++)
+			for (byte nbPokemon = 0; nbPokemon < ListePokemon.Length - 1; nbPokemon++)
 			{
     			ListePokemon[nbPokemon] = membre; 
 			}
         }
 
         public void display() {
-        	for (nbPokemon = 0; nbPokemon < ListePokemon.size() - 1; nbPokemon++)
+
+        	for (byte nbPokemon = 0; nbPokemon < ListePokemon.Length - 1; nbPokemon++)
 			{
-				Console.WritLine("Pokémon n°" + nbPokemon \+ 1 + " : " + ListePokemon[nbPokemon.getEspece()] + \n); 
+				Console.WriteLine("Pokémon n°" + nbPokemon \+ 1 + " : " + ListePokemon[nbPokemon].getEspece() + "\n"); 
 			}
         }
 /*

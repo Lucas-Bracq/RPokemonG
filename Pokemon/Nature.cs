@@ -1,15 +1,16 @@
-using UnityEngine;
+using System;
+using System.IO;
 
 namespace RPokemonG {
 	class Nature {
 
-		Map<Nature,float[5]> nature;
+		//Map<Nature,double[5]> nature;
 
 		//https://docs.microsoft.com/en-us/dotnet/standard/io/composing-streams?redirectedfrom=MSDN
         public void setNature() {
             byte i = 0;
             byte j = 0;
-            char c;
+            char c = ';';
 			string file = "../Fichier/nature.txt";
             //OUVERTURE FICHIER
 			if(!File.Exists(file)){
@@ -18,7 +19,7 @@ namespace RPokemonG {
 			}
             while (true) {
                 while (c != ';') {
-                    float[5] effet;
+                    double[] effet;
                     while (c != ',') {
                         if (c == '2') effet[i] = 1.1;
                         else if (c == '0') effet[i] = 0.9;
@@ -26,14 +27,15 @@ namespace RPokemonG {
                         ++i;
                         //DEPLACEMENT CHAR DE LECTURE
                     }
-                    this.nature[i] = effet;
+                    //this.nature[i] = effet;
                     ++j;
                 }
             }
         }
 
-		private float getEffet(){
-    return 2;
+		private double[] getEffet(){
+            double[] effet = { 1.0, 1.0, 1.0, 1.0, 1.0 };
+            return effet;
 		} 
 
 		private enum Nat {

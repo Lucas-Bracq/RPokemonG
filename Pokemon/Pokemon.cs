@@ -1,8 +1,6 @@
-using UnityEngine;
-
 namespace RPokemonG {
 
-	class Pokemon : MonoBehaviour {
+	class Pokemon {
 		private string espece;
 		private Type type;
 		private string description;
@@ -31,7 +29,7 @@ namespace RPokemonG {
 		private float precision;
 		private float esquive;
 
-		public Pokemon (int pv, int attaque, int attaqueSpe, int defense, int defenseSpe, int vitesse, PokemonType type, string espece, Talent talent, Nature nature, string description){
+		public Pokemon (int pv, int attaque, int attaqueSpe, int defense, int defenseSpe, int vitesse, Type type, string espece, Talent talent, Nature nature, string description){
 
 			this.currPv = pv;
 			this.currAttaque = attaque;
@@ -43,7 +41,7 @@ namespace RPokemonG {
             this.talent = talent;
 			this.type = type;
 
-			this.etat = 1;
+			this.etat = true;
 			this.statut = Statut.nul;
 
 			this.espece = espece;
@@ -53,14 +51,14 @@ namespace RPokemonG {
 			capacite.utiliser(cible);
 		}
 
-		public void setStat(Nature nature){
+		/*public void setStat(Nature nature){
 			this.currPv = this.pvBase + 5 + 60 ;
 			this.currAttaque = (this.attaqueBase + 5)* nature.getEffet()[0];
 			this.currDefense = (this.defenseBase + 5)* nature.getEffet()[1];
 			this.currVitesse = (this.vitesseBase + 5)* nature.getEffet()[2];
 			this.currAttaqueSpe = (this.attaqueSpeBase + 5)* nature.getEffet()[3];
 			this.currDefenseSpe = (this.defenseSpeBase + 5)* nature.getEffet()[4];
-		}
+		}*/
 
 		public int getCurrPv(){
 	        return currPv;
@@ -125,7 +123,7 @@ namespace RPokemonG {
 		public void setEsquive(float esquive){
 			this.esquive = esquive;
 		}
-	    public String getEspece() {
+	    public string getEspece() {
 	        return espece;
 	    }
 
@@ -133,7 +131,7 @@ namespace RPokemonG {
 	        return type;
 	    }
 
-	    public String getDescription() {
+	    public string getDescription() {
 	        return description;
 	    }
 

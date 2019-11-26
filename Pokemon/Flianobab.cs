@@ -1,5 +1,7 @@
-using UnityEngine;
+namespace RPokemonG
+{
+    class Flianobab : Pokemon
+    {
 
-class Flianobab : Pokemon {
-	
+    }
 }

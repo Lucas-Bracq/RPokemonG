@@ -1,15 +1,12 @@
-using UnityEngine;
-
 namespace RPokemonG {
 
-    public class Capacite {
-        public string nom;
-        public string categorie;
-        public Type type;
-        public int pp;
-        //public int puissance;
-        public int precision;
-        public string description;
+    class Capacite {
+        protected string nom;
+        protected string categorie;
+        protected Type type;
+        protected int pp;
+        protected int precision;
+        protected string description;
 
         public string getNom() {
             return nom;
@@ -30,9 +27,8 @@ namespace RPokemonG {
         public Type getType() {
             return type;
         }
-
-        public void setType (Type type) { 
-            this.type = type; 
+        public void setType(Type type) {
+            this.type = type;
         }
 
         public int getPP() {
@@ -41,14 +37,6 @@ namespace RPokemonG {
 
         public void setPP(int pp) { 
             this.pp = pp;  
-        }
-
-        public int getPuissance() {
-            return puissance;
-        }
-
-        public void setPuissance(int puissance) { 
-            this.puissance = puissance;  
         }
 
         public void utiliser(Pokemon cible) {
