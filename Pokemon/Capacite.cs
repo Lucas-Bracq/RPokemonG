@@ -1,9 +1,9 @@
 namespace RPokemonG {
 
-    class Capacite {
+    abstract class Capacite {
         protected string nom;
         protected string categorie;
-        protected Type type;
+        protected e_Type type;
         protected int pp;
         protected int precision;
         protected string description;
@@ -24,10 +24,10 @@ namespace RPokemonG {
             this.categorie = categorie;  
         }
 
-        public Type getType() {
+        public e_Type getType() {
             return type;
         }
-        public void setType(Type type) {
+        public void setType(e_Type type) {
             this.type = type;
         }
 
@@ -59,25 +59,5 @@ namespace RPokemonG {
             this.description = description; 
         }
         
-    }
-
-    enum Type {
-        infomatique,
-        fee,
-        normal,
-        feu,
-        eau,
-        plante,
-        electrique,
-        glace,
-        combat,
-        poison,
-        sol,
-        vol,
-        psy,
-        insecte,
-        roche,
-        spectre,
-        dragon
     }
 }

@@ -24,7 +24,7 @@ namespace RPokemonG {
 
         	for (byte nbPokemon = 0; nbPokemon < ListePokemon.Length - 1; nbPokemon++)
 			{
-				Console.WriteLine("Pokémon n°" + nbPokemon \+ 1 + " : " + ListePokemon[nbPokemon].getEspece() + "\n"); 
+				Console.WriteLine("Pokémon n°" + nbPokemon + 1 + " : " + ListePokemon[nbPokemon].getEspece() + "\n"); 
 			}
         }
 /*
@@ -50,4 +50,5 @@ namespace RPokemonG {
 	}
 
 */
+	}
 }

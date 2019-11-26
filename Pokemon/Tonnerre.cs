@@ -20,7 +20,7 @@ namespace RPokemonG{
             if(reussite <= precision / cible.getEsquive() * lanceur.getPrecision()){    //L'attaque réussit
                 int variation = alea.Next(85, 101); // Variation des dégâts
                 double coeff = ((double)variation) / 100;
-                if (type == lanceur.getType()) coeff *= 1.5; //STAB
+                if (type == lanceur.getType()[0] || (2 == lanceur.getType().Length && type == lanceur.getType()[1])) coeff *= 1.5; //STAB
                 // TODO : efficacité attaque
                 // TODO : impact talent
                 int coupCritique = alea.Next(1, 25);

@@ -1,69 +1,58 @@
 using System;
-using System.IO;
+using System.Collections.Generic;
 
 namespace RPokemonG {
-	class Nature {
-
-		//Map<Nature,double[5]> nature;
+	abstract class Nature {
 
 		//https://docs.microsoft.com/en-us/dotnet/standard/io/composing-streams?redirectedfrom=MSDN
-        public void setNature() {
-            byte i = 0;
+        public static void setNature() {
+
+            Dictionary<int, List<double>> nature = new Dictionary<int, List<double>>();
+             
+            string test = System.IO.File.ReadAllText(@"D:\TESTC#\test\testnature.txt");
+
             byte j = 0;
-            char c = ';';
-			string file = "../Fichier/nature.txt";
-            //OUVERTURE FICHIER
-			if(!File.Exists(file)){
-				Console.WriteLine(file + " does not exist!");
-            	return;
-			}
-            while (true) {
-                while (c != ';') {
-                    double[] effet;
-                    while (c != ',') {
-                        if (c == '2') effet[i] = 1.1;
-                        else if (c == '0') effet[i] = 0.9;
-                        else effet[i] = 1.0;
-                        ++i;
-                        //DEPLACEMENT CHAR DE LECTURE
-                    }
-                    //this.nature[i] = effet;
-                    ++j;
+            byte k = 0;
+            List<double> effet = new List<double>();
+            for (byte i = 0; i < test.Length; ++i)
+            {
+                if (j == 5)
+                {
+                    nature.Add(k, effet);
+                    ++k;                    
+                    effet.Clear();
+                    j = 0;
                 }
+                if (test[i] == '2') effet.Add(1.1);
+                if (test[i] == '0') effet.Add(0.9);
+                if (test[i] == '1') effet.Add(1.0);
+                ++j;
+
+                //List<double> effet = new List<double>();
+                //effet.Add();
             }
-        }
+
+            byte l = 0;
+            foreach (List<double> i in nature.Values)
+            {
+                e_Nature nat = (e_Nature)l;
+                Console.WriteLine(nat);
+                foreach (double p in i)
+                {
+                    Console.WriteLine(p);
+                }
+                ++l;
+            }
+
+            Console.WriteLine();
+
+            Console.ReadLine();
+			
+		}
 
 		private double[] getEffet(){
             double[] effet = { 1.0, 1.0, 1.0, 1.0, 1.0 };
             return effet;
 		} 
-
-		private enum Nat {
-			assure,
-			bizzare,
-			brave,
-			calme,
-			discret,
-			docile,
-			doux,
-			foufou,
-			gentil,
-			hardi,
-			jovial,
-			lache,
-			malin,
-			malpoli,
-			mauvais,
-			modeste,
-			naif,
-			presse,
-			prudent,
-			pudique,
-			relax,
-			rigide,
-			serieux,
-			solo,
-			timide,
-		}
 	}
 }

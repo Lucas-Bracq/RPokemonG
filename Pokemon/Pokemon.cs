@@ -1,24 +1,18 @@
 namespace RPokemonG {
 
-	class Pokemon {
-		private string espece;
-		private Type type;
-		private string description;
-
-		private Nature nature;
-		private Talent talent;
-		private Statut statut;
-
-		//etat = 1 vivant
-		//etat = 0 KO
-		private bool etat;
-
-		private int pvBase;
-		private int attaqueBase;
-		private int attaqueSpeBase;
-		private int defenseBase;
-		private int defenseSpeBase;
-		private int vitesseBase;
+	abstract class Pokemon {
+		protected e_Pokemon espece;
+		protected e_Type[] types;
+		protected string description;
+		protected Nature nature;
+		protected e_Talent talent;
+		protected e_Statut statut;
+		protected int pvBase;
+		protected int attaqueBase;
+		protected int attaqueSpeBase;
+		protected int defenseBase;
+		protected int defenseSpeBase;
+		protected int vitesseBase;
 
 		private int currPv;
 		private int currAttaque;
@@ -28,24 +22,6 @@ namespace RPokemonG {
 		private int currVitesse;
 		private float precision;
 		private float esquive;
-
-		public Pokemon (int pv, int attaque, int attaqueSpe, int defense, int defenseSpe, int vitesse, Type type, string espece, Talent talent, Nature nature, string description){
-
-			this.currPv = pv;
-			this.currAttaque = attaque;
-            this.currAttaqueSpe = attaqueSpe;
-            this.currDefense = defense;
-            this.currDefenseSpe = defenseSpe;
-            this.currVitesse = vitesse;
-
-            this.talent = talent;
-			this.type = type;
-
-			this.etat = true;
-			this.statut = Statut.nul;
-
-			this.espece = espece;
-		}
 
 		public void attaquer(Capacite capacite, Pokemon cible){
 			capacite.utiliser(cible);
@@ -123,12 +99,12 @@ namespace RPokemonG {
 		public void setEsquive(float esquive){
 			this.esquive = esquive;
 		}
-	    public string getEspece() {
+	    public e_Pokemon getEspece() {
 	        return espece;
 	    }
 
-	    public Type getType() {
-	        return type;
+	    public e_Type[] getType() {
+	        return types;
 	    }
 
 	    public string getDescription() {
@@ -139,37 +115,21 @@ namespace RPokemonG {
 	        return nature;
 	    }
 
-	    public Talent getTalent() { 
+	    public e_Talent getTalent() { 
 	    	return talent; 
 	    }
 
-	    public void setTalent (Talent talent) {
+	    public void setTalent (e_Talent talent) {
 	     this.talent = talent;
 	    }
 
-	    public Statut getStatut() { 
+	    public e_Statut getStatut() { 
 	    	return statut; 
 	    }
 
-	    public void setStatut(Statut statut) { 
+	    public void setStatut(e_Statut statut) { 
 	    	this.statut = statut; 
 	    }
 
-	    public bool getEtat() { 
-	    	return etat; 
-	    }
-
-	    public void setEtat(bool etat) {
-	    	this.etat = etat;
-	    }
-
-	}
-
-	enum Statut {
-		nul,
-		poison,
-		paralysie,
-		gel,
-		brulure
 	}
 }
