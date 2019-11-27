@@ -1,22 +1,24 @@
 namespace RPokemonG
 {
     enum e_Type {
-        infomatique,
-        fee,
-        normal,
-        feu,
-        eau,
-        plante,
-        electrique,
-        glace,
-        combat,
-        poison,
-        sol,
-        vol,
-        psy,
-        insecte,
-        roche,
-        spectre,
-        dragon
+        Acier,
+        Combat,
+        Dragon,
+        Eau,
+        Electrique,
+        Fee,
+        Feu,
+        Glace,
+        Infomatique,
+        Insecte,
+        Normal,
+        Plante,
+        Poison,
+        Psy,
+        Roche,
+        Sol,
+        Spectre,
+        Tenebres,
+        Vol
     }
 }

@@ -3,7 +3,7 @@ namespace RPokemonG
     class Flianobab : Pokemon {
         public Flianobab() : base() {
             espece = e_Pokemon.Flianobab;
-            types = new e_Type[] {e_Type.plante, e_Type.fee};
+            types = new e_Type[] {e_Type.Plante, e_Type.Fee};
             description = "Il est au service des autres Pokemon qu’il apaise grâce aux pouvoirs des fleurs sur sa tête";
             talent = e_Talent.Rege_Force;
             pvBase = 120;

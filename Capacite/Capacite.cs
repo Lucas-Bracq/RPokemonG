@@ -1,26 +1,26 @@
 namespace RPokemonG {
 
     abstract class Capacite {
-        protected string nom;
-        protected string categorie;
+        protected e_Capacite nom;
+        protected e_Categorie categorie;
         protected e_Type type;
         protected int pp;
         protected int precision;
         protected string description;
 
-        public string getNom() {
+        public e_Capacite getNom() {
             return nom;
         }
 
-        public void setNom(string nom) {
+        public void setNom(e_Capacite nom) {
             this.nom = nom; 
         }
 
-        public string getCategorie() {
+        public e_Categorie getCategorie() {
             return categorie;
         }
 
-        public void setCategorie(string categorie) {
+        public void setCategorie(e_Categorie categorie) {
             this.categorie = categorie;  
         }
 
@@ -39,7 +39,7 @@ namespace RPokemonG {
             this.pp = pp;  
         }
 
-        public void utiliser(Pokemon cible) {
+        public void utiliser(Pokemon cible, Pokemon lanceur) {
             --pp;
         }
 

@@ -23,8 +23,11 @@ namespace RPokemonG {
 		private float precision;
 		private float esquive;
 
-		public void attaquer(Capacite capacite, Pokemon cible){
-			capacite.utiliser(cible);
+		protected Capacite[] capacitesApprenables;
+		protected Capacite[] capacitesApprises;
+
+		public void attaquer(Capacite capacite, Pokemon cible, Pokemon lanceur){
+			capacite.utiliser(cible, lanceur);
 		}
 
 		/*public void setStat(Nature nature){

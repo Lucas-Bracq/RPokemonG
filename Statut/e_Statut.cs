@@ -1,8 +1,8 @@
 namespace RPokemonG{
     enum e_Statut{
-        brulure,
-        gel,
-		poison,
-		paralysie,
+        Brulure,
+        Gel,
+		Poison,
+		Paralysie,
     }
 }

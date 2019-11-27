@@ -1,14 +1,14 @@
 namespace RPokemonG {
 
-    public class Talent {
-        public string nom;
-        public string description;
+    class Talent {
+        private e_Talent nom;
+        private string description;
 
-        public string getNom() {
+        public e_Talent getNom() {
             return nom;
         }
 
-        public void setNom(string nom) { 
+        public void setNom(e_Talent nom) { 
             this.nom = nom; 
         }
 
