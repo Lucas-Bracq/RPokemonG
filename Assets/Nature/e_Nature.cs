@@ -1,0 +1,30 @@
+namespace RPokemonG{
+    enum e_Nature
+        {
+            Assure,
+            Bizarre,
+            Brave,
+            Calme,
+            Discret,
+            Docile,
+            Doux,
+            Foufou,
+            Gentil,
+            Hardi,
+            Jovial,
+            Lache,
+            Malin,
+            Malpoli,
+            Mauvais,
+            Modeste,
+            Naif,
+            Presse,
+            Prudent,
+            Pudique,
+            Relax,
+            Rigide,
+            Serieux,
+            Solo,
+            Timide
+        };
+}
