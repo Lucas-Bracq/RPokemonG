@@ -23,7 +23,7 @@ namespace RPokemonG {
 		private float precision;
 		private float esquive;
 
-		protected Capacite[] capacitesApprenables;
+		protected e_Capacite[] capacitesApprenables;
 		protected Capacite[] capacitesApprises;
 
 		public void attaquer(Capacite capacite, Pokemon cible, Pokemon lanceur){
