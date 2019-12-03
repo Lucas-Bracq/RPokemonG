@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PolitsuneAV
+  m_Name: FlianobabAV
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -24,7 +24,7 @@ AnimationClip:
     - time: 0.33333334
       value: {fileID: 21300000, guid: 96f0338af8647124db7248c4e46ea820, type: 3}
     - time: 0.6666667
-      value: {fileID: 21300000, guid: 4b259f05b9d58f047a16e55e012b9b61, type: 3}
+      value: {fileID: 21300000, guid: a1e738f5a9a75b24898a948d0ac2fa00, type: 3}
     - time: 1
       value: {fileID: 21300000, guid: 96f0338af8647124db7248c4e46ea820, type: 3}
     - time: 1.3333334
@@ -50,7 +50,7 @@ AnimationClip:
     pptrCurveMapping:
     - {fileID: 21300000, guid: a1e738f5a9a75b24898a948d0ac2fa00, type: 3}
     - {fileID: 21300000, guid: 96f0338af8647124db7248c4e46ea820, type: 3}
-    - {fileID: 21300000, guid: 4b259f05b9d58f047a16e55e012b9b61, type: 3}
+    - {fileID: 21300000, guid: a1e738f5a9a75b24898a948d0ac2fa00, type: 3}
     - {fileID: 21300000, guid: 96f0338af8647124db7248c4e46ea820, type: 3}
     - {fileID: 21300000, guid: 96f0338af8647124db7248c4e46ea820, type: 3}
   m_AnimationClipSettings:
