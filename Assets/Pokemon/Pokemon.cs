@@ -1,3 +1,6 @@
+using UnityEngine;
+using System.Collections;
+
 namespace RPokemonG {
 
 	abstract class Pokemon {
