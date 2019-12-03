@@ -1,0 +1,1284 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2019-12-03T11:11:13.220+01:00
+  initializedAtString: 2019-12-03T11:09:45.730+01:00
+  log:
+  - commitID: 948d524d3faad9ba88df1c72544f187570d112ee
+    mergeA: 
+    mergeB: 
+    authorName: Lucas Bracq
+    authorEmail: lucas.bracq@etu.univ-amu.fr
+    commitEmail: lucas.bracq@etu.univ-amu.fr
+    commitName: Lucas Bracq
+    summary: "Commit code ajout\xE9"
+    description: Ajout du code via github
+    timeString: 2019-12-03T11:11:12.000+01:00
+    commitTimeString: 2019-12-03T11:11:12.000+01:00
+    changes:
+    - path: .vs\RPokemonG-Lucas\v16\.suo
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\.vs\RPokemonG-Lucas\v16\.suo
+      projectPath: .vs\RPokemonG-Lucas\v16\.suo
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .vs\RPokemonG-Lucas\v16\Server\sqlite3\db.lock
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\.vs\RPokemonG-Lucas\v16\Server\sqlite3\db.lock
+      projectPath: .vs\RPokemonG-Lucas\v16\Server\sqlite3\db.lock
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .vs\RPokemonG-Lucas\v16\Server\sqlite3\storage.ide
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\.vs\RPokemonG-Lucas\v16\Server\sqlite3\storage.ide
+      projectPath: .vs\RPokemonG-Lucas\v16\Server\sqlite3\storage.ide
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assembly-CSharp-Editor-firstpass.csproj
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assembly-CSharp-Editor-firstpass.csproj
+      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Code.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Code.meta
+      projectPath: Assets\Code.meta
+      originalPath: Assets\Sprites\Persos.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Code\Autre.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Code\Autre.meta
+      projectPath: Assets\Code\Autre.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Code\Capacite.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Code\Capacite.meta
+      projectPath: Assets\Code\Capacite.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Code\Nature.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Code\Nature.meta
+      projectPath: Assets\Code\Nature.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Code\Pokemon.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Code\Pokemon.meta
+      projectPath: Assets\Code\Pokemon.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Code\Statut.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Code\Statut.meta
+      projectPath: Assets\Code\Statut.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Code\Talent.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Code\Talent.meta
+      projectPath: Assets\Code\Talent.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Code\Type.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Code\Type.meta
+      projectPath: Assets\Code\Type.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Code\bin.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Code\bin.meta
+      projectPath: Assets\Code\bin.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Code\bin\Debug.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Code\bin\Debug.meta
+      projectPath: Assets\Code\bin\Debug.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Code\bin\Release.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Code\bin\Release.meta
+      projectPath: Assets\Code\bin\Release.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Code\obj.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Code\obj.meta
+      projectPath: Assets\Code\obj.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Code\obj\Nature.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Code\obj\Nature.meta
+      projectPath: Assets\Code\obj\Nature.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Code\obj\Statut.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Code\obj\Statut.meta
+      projectPath: Assets\Code\obj\Statut.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Code\obj\x86.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Code\obj\x86.meta
+      projectPath: Assets\Code\obj\x86.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Code\obj\x86\Debug.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Code\obj\x86\Debug.meta
+      projectPath: Assets\Code\obj\x86\Debug.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Code\obj\x86\Debug\TempPE.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Code\obj\x86\Debug\TempPE.meta
+      projectPath: Assets\Code\obj\x86\Debug\TempPE.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Code\obj\x86\Release.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Code\obj\x86\Release.meta
+      projectPath: Assets\Code\obj\x86\Release.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: ff95bff71db99eb440f53f86926eb00fa4f08ae7
+    mergeA: 
+    mergeB: 
+    authorName: Lucas Bracq
+    authorEmail: lucas.bracq@etu.univ-amu.fr
+    commitEmail: lucas.bracq@etu.univ-amu.fr
+    commitName: Lucas Bracq
+    summary: Anim Politsune
+    description: 
+    timeString: 2019-11-20T11:59:04.000+01:00
+    commitTimeString: 2019-11-20T11:59:04.000+01:00
+    changes:
+    - path: "Assets\\Animations\\Arri\xE8re\\PikatiqueAR.anim"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Animations\\Arri\xE8re\\PikatiqueAR.anim"
+      projectPath: "Assets\\Animations\\Arri\xE8re\\PikatiqueAR.anim"
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: "Assets\\Animations\\Arri\xE8re\\PolitsuneAR.anim"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Animations\\Arri\xE8re\\PolitsuneAR.anim"
+      projectPath: "Assets\\Animations\\Arri\xE8re\\PolitsuneAR.anim"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Animations\\Arri\xE8re\\PolitsuneAR.anim.meta"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Animations\\Arri\xE8re\\PolitsuneAR.anim.meta"
+      projectPath: "Assets\\Animations\\Arri\xE8re\\PolitsuneAR.anim.meta"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Animations\\Arri\xE8re\\PolitsuneAR1.controller"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Animations\\Arri\xE8re\\PolitsuneAR1.controller"
+      projectPath: "Assets\\Animations\\Arri\xE8re\\PolitsuneAR1.controller"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Animations\\Arri\xE8re\\PolitsuneAR1.controller.meta"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Animations\\Arri\xE8re\\PolitsuneAR1.controller.meta"
+      projectPath: "Assets\\Animations\\Arri\xE8re\\PolitsuneAR1.controller.meta"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 2e5a00695b8cf0994b56eb45c131a1e81168f7a0
+    mergeA: 
+    mergeB: 
+    authorName: Lucas Bracq
+    authorEmail: lucas.bracq@etu.univ-amu.fr
+    commitEmail: lucas.bracq@etu.univ-amu.fr
+    commitName: Lucas Bracq
+    summary: "Fichiers doubles enlev\xE9s"
+    description: 
+    timeString: 2019-11-20T11:32:17.000+01:00
+    commitTimeString: 2019-11-20T11:32:17.000+01:00
+    changes:
+    - path: "Unity\\Assets\\Animations\\Arri\xE8re\\crad"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Unity\\Assets\\Animations\\Arri\xE8re\\crad"
+      projectPath: "Unity\\Assets\\Animations\\Arri\xE8re\\crad"
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Unity\Assets\Animations\Avant\black
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Unity\Assets\Animations\Avant\black
+      projectPath: Unity\Assets\Animations\Avant\black
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Unity\Assets\Animations\red
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Unity\Assets\Animations\red
+      projectPath: Unity\Assets\Animations\red
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Unity\Assets\Scenes\blue
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Unity\Assets\Scenes\blue
+      projectPath: Unity\Assets\Scenes\blue
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: "Unity\\Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\cyan"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Unity\\Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\cyan"
+      projectPath: "Unity\\Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\cyan"
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: "Unity\\Assets\\Sprites\\Cr\xE9atures\\Avant\\Big"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Unity\\Assets\\Sprites\\Cr\xE9atures\\Avant\\Big"
+      projectPath: "Unity\\Assets\\Sprites\\Cr\xE9atures\\Avant\\Big"
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: "Unity\\Assets\\Sprites\\Cr\xE9atures\\pink"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Unity\\Assets\\Sprites\\Cr\xE9atures\\pink"
+      projectPath: "Unity\\Assets\\Sprites\\Cr\xE9atures\\pink"
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: "Unity\\Assets\\Sprites\\D\xE9cor\\violet"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Unity\\Assets\\Sprites\\D\xE9cor\\violet"
+      projectPath: "Unity\\Assets\\Sprites\\D\xE9cor\\violet"
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Unity\Assets\Sprites\Persos\purple
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Unity\Assets\Sprites\Persos\purple
+      projectPath: Unity\Assets\Sprites\Persos\purple
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Unity\Assets\Sprites\green
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Unity\Assets\Sprites\green
+      projectPath: Unity\Assets\Sprites\green
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+  - commitID: f032014b9f125c7135bbead3de5399051c19e07e
+    mergeA: 
+    mergeB: 
+    authorName: Lucas Bracq
+    authorEmail: lucas.bracq@etu.univ-amu.fr
+    commitEmail: lucas.bracq@etu.univ-amu.fr
+    commitName: Lucas Bracq
+    summary: "D\xE9but animations"
+    description: "d\xE9but animations + liage git"
+    timeString: 2019-11-20T11:27:41.000+01:00
+    commitTimeString: 2019-11-20T11:27:41.000+01:00
+    changes:
+    - path: Assets\Animations.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Animations.meta
+      projectPath: Assets\Animations.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Animations\\Arri\xE8re.meta"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Animations\\Arri\xE8re.meta"
+      projectPath: "Assets\\Animations\\Arri\xE8re.meta"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Animations\\Arri\xE8re\\PikatiqueAR.anim"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Animations\\Arri\xE8re\\PikatiqueAR.anim"
+      projectPath: "Assets\\Animations\\Arri\xE8re\\PikatiqueAR.anim"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Animations\\Arri\xE8re\\PikatiqueAR.anim.meta"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Animations\\Arri\xE8re\\PikatiqueAR.anim.meta"
+      projectPath: "Assets\\Animations\\Arri\xE8re\\PikatiqueAR.anim.meta"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Animations\\Arri\xE8re\\PikatiqueAR1.controller"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Animations\\Arri\xE8re\\PikatiqueAR1.controller"
+      projectPath: "Assets\\Animations\\Arri\xE8re\\PikatiqueAR1.controller"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Animations\\Arri\xE8re\\PikatiqueAR1.controller.meta"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Animations\\Arri\xE8re\\PikatiqueAR1.controller.meta"
+      projectPath: "Assets\\Animations\\Arri\xE8re\\PikatiqueAR1.controller.meta"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Animations\\Arri\xE8re\\PikatiqueAR2.controller"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Animations\\Arri\xE8re\\PikatiqueAR2.controller"
+      projectPath: "Assets\\Animations\\Arri\xE8re\\PikatiqueAR2.controller"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Animations\\Arri\xE8re\\PikatiqueAR2.controller.meta"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Animations\\Arri\xE8re\\PikatiqueAR2.controller.meta"
+      projectPath: "Assets\\Animations\\Arri\xE8re\\PikatiqueAR2.controller.meta"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Avant.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Animations\Avant.meta
+      projectPath: Assets\Animations\Avant.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Avant\PolitsuneAV.anim
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Animations\Avant\PolitsuneAV.anim
+      projectPath: Assets\Animations\Avant\PolitsuneAV.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Avant\PolitsuneAV.anim.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Animations\Avant\PolitsuneAV.anim.meta
+      projectPath: Assets\Animations\Avant\PolitsuneAV.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Avant\PolitsuneAV1.controller
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Animations\Avant\PolitsuneAV1.controller
+      projectPath: Assets\Animations\Avant\PolitsuneAV1.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Avant\PolitsuneAV1.controller.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Animations\Avant\PolitsuneAV1.controller.meta
+      projectPath: Assets\Animations\Avant\PolitsuneAV1.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Avant\PolitsuneAV2.controller
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Animations\Avant\PolitsuneAV2.controller
+      projectPath: Assets\Animations\Avant\PolitsuneAV2.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Avant\PolitsuneAV2.controller.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Animations\Avant\PolitsuneAV2.controller.meta
+      projectPath: Assets\Animations\Avant\PolitsuneAV2.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins.meta
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor.meta
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.pdb
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Api.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.pdb.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Api.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Scenes.meta
+      projectPath: Assets\Scenes.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Scenes\SampleScene.unity.meta
+      projectPath: Assets\Scenes\SampleScene.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Sprites.meta
+      projectPath: Assets\Sprites.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\Cr\xE9atures.meta"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\Cr\xE9atures.meta"
+      projectPath: "Assets\\Sprites\\Cr\xE9atures.meta"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re.meta"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re.meta"
+      projectPath: "Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re.meta"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PikatiqueAR1.png"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PikatiqueAR1.png"
+      projectPath: "Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PikatiqueAR1.png"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PikatiqueAR1.png.meta"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PikatiqueAR1.png.meta"
+      projectPath: "Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PikatiqueAR1.png.meta"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PikatiqueAR2.png"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PikatiqueAR2.png"
+      projectPath: "Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PikatiqueAR2.png"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PikatiqueAR2.png.meta"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PikatiqueAR2.png.meta"
+      projectPath: "Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PikatiqueAR2.png.meta"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PikatiqueAR3.png"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PikatiqueAR3.png"
+      projectPath: "Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PikatiqueAR3.png"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PikatiqueAR3.png.meta"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PikatiqueAR3.png.meta"
+      projectPath: "Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PikatiqueAR3.png.meta"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PolitsuneAR1.png"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PolitsuneAR1.png"
+      projectPath: "Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PolitsuneAR1.png"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PolitsuneAR1.png.meta"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PolitsuneAR1.png.meta"
+      projectPath: "Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PolitsuneAR1.png.meta"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PolitsuneAR2.png"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PolitsuneAR2.png"
+      projectPath: "Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PolitsuneAR2.png"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PolitsuneAR2.png.meta"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PolitsuneAR2.png.meta"
+      projectPath: "Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PolitsuneAR2.png.meta"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PolitsuneAR3.png"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PolitsuneAR3.png"
+      projectPath: "Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PolitsuneAR3.png"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PolitsuneAR3.png.meta"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PolitsuneAR3.png.meta"
+      projectPath: "Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\PolitsuneAR3.png.meta"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\Cr\xE9atures\\Avant.meta"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\Cr\xE9atures\\Avant.meta"
+      projectPath: "Assets\\Sprites\\Cr\xE9atures\\Avant.meta"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\Cr\xE9atures\\Avant\\PikatiqueAV1.png"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\Cr\xE9atures\\Avant\\PikatiqueAV1.png"
+      projectPath: "Assets\\Sprites\\Cr\xE9atures\\Avant\\PikatiqueAV1.png"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\Cr\xE9atures\\Avant\\PikatiqueAV1.png.meta"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\Cr\xE9atures\\Avant\\PikatiqueAV1.png.meta"
+      projectPath: "Assets\\Sprites\\Cr\xE9atures\\Avant\\PikatiqueAV1.png.meta"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\Cr\xE9atures\\Avant\\PikatiqueAV2.png"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\Cr\xE9atures\\Avant\\PikatiqueAV2.png"
+      projectPath: "Assets\\Sprites\\Cr\xE9atures\\Avant\\PikatiqueAV2.png"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\Cr\xE9atures\\Avant\\PikatiqueAV2.png.meta"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\Cr\xE9atures\\Avant\\PikatiqueAV2.png.meta"
+      projectPath: "Assets\\Sprites\\Cr\xE9atures\\Avant\\PikatiqueAV2.png.meta"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\Cr\xE9atures\\Avant\\PikatiqueAV3.png"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\Cr\xE9atures\\Avant\\PikatiqueAV3.png"
+      projectPath: "Assets\\Sprites\\Cr\xE9atures\\Avant\\PikatiqueAV3.png"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\Cr\xE9atures\\Avant\\PikatiqueAV3.png.meta"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\Cr\xE9atures\\Avant\\PikatiqueAV3.png.meta"
+      projectPath: "Assets\\Sprites\\Cr\xE9atures\\Avant\\PikatiqueAV3.png.meta"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\Cr\xE9atures\\Avant\\PolitsuneAV1.png"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\Cr\xE9atures\\Avant\\PolitsuneAV1.png"
+      projectPath: "Assets\\Sprites\\Cr\xE9atures\\Avant\\PolitsuneAV1.png"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\Cr\xE9atures\\Avant\\PolitsuneAV1.png.meta"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\Cr\xE9atures\\Avant\\PolitsuneAV1.png.meta"
+      projectPath: "Assets\\Sprites\\Cr\xE9atures\\Avant\\PolitsuneAV1.png.meta"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\Cr\xE9atures\\Avant\\PolitsuneAV2.png"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\Cr\xE9atures\\Avant\\PolitsuneAV2.png"
+      projectPath: "Assets\\Sprites\\Cr\xE9atures\\Avant\\PolitsuneAV2.png"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\Cr\xE9atures\\Avant\\PolitsuneAV2.png.meta"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\Cr\xE9atures\\Avant\\PolitsuneAV2.png.meta"
+      projectPath: "Assets\\Sprites\\Cr\xE9atures\\Avant\\PolitsuneAV2.png.meta"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\Cr\xE9atures\\Avant\\PolitsuneAV3.png"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\Cr\xE9atures\\Avant\\PolitsuneAV3.png"
+      projectPath: "Assets\\Sprites\\Cr\xE9atures\\Avant\\PolitsuneAV3.png"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\Cr\xE9atures\\Avant\\PolitsuneAV3.png.meta"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\Cr\xE9atures\\Avant\\PolitsuneAV3.png.meta"
+      projectPath: "Assets\\Sprites\\Cr\xE9atures\\Avant\\PolitsuneAV3.png.meta"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\D\xE9cor.meta"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\D\xE9cor.meta"
+      projectPath: "Assets\\Sprites\\D\xE9cor.meta"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\D\xE9cor\\decorpokemon.png"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\D\xE9cor\\decorpokemon.png"
+      projectPath: "Assets\\Sprites\\D\xE9cor\\decorpokemon.png"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Sprites\\D\xE9cor\\decorpokemon.png.meta"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Assets\\Sprites\\D\xE9cor\\decorpokemon.png.meta"
+      projectPath: "Assets\\Sprites\\D\xE9cor\\decorpokemon.png.meta"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Persos.meta
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Assets\Sprites\Persos.meta
+      projectPath: Assets\Sprites\Persos.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 6aeaa7e3f54bd5ff9b7662b8b4d1c486067dba82
+    mergeA: 
+    mergeB: 
+    authorName: Lucas-Bracq
+    authorEmail: 49907533+Lucas-Bracq@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Create black
+    description: 
+    timeString: 2019-11-20T11:05:32.000+01:00
+    commitTimeString: 2019-11-20T11:05:32.000+01:00
+    changes:
+    - path: Unity\Assets\Animations\Avant\black
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Unity\Assets\Animations\Avant\black
+      projectPath: Unity\Assets\Animations\Avant\black
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: b1f63b6893770375c02cdbc6d9b8b5130573ec00
+    mergeA: 
+    mergeB: 
+    authorName: Lucas-Bracq
+    authorEmail: 49907533+Lucas-Bracq@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Create crad
+    description: 
+    timeString: 2019-11-20T11:05:10.000+01:00
+    commitTimeString: 2019-11-20T11:05:10.000+01:00
+    changes:
+    - path: "Unity\\Assets\\Animations\\Arri\xE8re\\crad"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Unity\\Assets\\Animations\\Arri\xE8re\\crad"
+      projectPath: "Unity\\Assets\\Animations\\Arri\xE8re\\crad"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 4993421437070c2a9aef0f77150f018704c96756
+    mergeA: 
+    mergeB: 
+    authorName: Lucas-Bracq
+    authorEmail: 49907533+Lucas-Bracq@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Create cyan
+    description: 
+    timeString: 2019-11-20T11:04:23.000+01:00
+    commitTimeString: 2019-11-20T11:04:23.000+01:00
+    changes:
+    - path: "Unity\\Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\cyan"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Unity\\Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\cyan"
+      projectPath: "Unity\\Assets\\Sprites\\Cr\xE9atures\\Arri\xE8re\\cyan"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 70b55ebedf7fbc6ca448d46429b592f3d8447e30
+    mergeA: 
+    mergeB: 
+    authorName: Lucas-Bracq
+    authorEmail: 49907533+Lucas-Bracq@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Create Big
+    description: 
+    timeString: 2019-11-20T11:03:45.000+01:00
+    commitTimeString: 2019-11-20T11:03:45.000+01:00
+    changes:
+    - path: "Unity\\Assets\\Sprites\\Cr\xE9atures\\Avant\\Big"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Unity\\Assets\\Sprites\\Cr\xE9atures\\Avant\\Big"
+      projectPath: "Unity\\Assets\\Sprites\\Cr\xE9atures\\Avant\\Big"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: f85ec1bf7ad038738aa3a8224dc699300a755652
+    mergeA: 
+    mergeB: 
+    authorName: Lucas-Bracq
+    authorEmail: 49907533+Lucas-Bracq@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Create purple
+    description: 
+    timeString: 2019-11-20T11:02:44.000+01:00
+    commitTimeString: 2019-11-20T11:02:44.000+01:00
+    changes:
+    - path: Unity\Assets\Sprites\Persos\purple
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Unity\Assets\Sprites\Persos\purple
+      projectPath: Unity\Assets\Sprites\Persos\purple
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: b441b2dd16cf5bb006e19ba80dbd585210d82251
+    mergeA: 
+    mergeB: 
+    authorName: Lucas-Bracq
+    authorEmail: 49907533+Lucas-Bracq@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Create violet
+    description: 
+    timeString: 2019-11-20T11:02:15.000+01:00
+    commitTimeString: 2019-11-20T11:02:15.000+01:00
+    changes:
+    - path: "Unity\\Assets\\Sprites\\D\xE9cor\\violet"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Unity\\Assets\\Sprites\\D\xE9cor\\violet"
+      projectPath: "Unity\\Assets\\Sprites\\D\xE9cor\\violet"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 9ac44ed2aa3c5f45ed4e7d8e7d94e775ad240d5b
+    mergeA: 
+    mergeB: 
+    authorName: Lucas-Bracq
+    authorEmail: 49907533+Lucas-Bracq@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Create pink
+    description: 
+    timeString: 2019-11-20T11:01:56.000+01:00
+    commitTimeString: 2019-11-20T11:01:56.000+01:00
+    changes:
+    - path: "Unity\\Assets\\Sprites\\Cr\xE9atures\\pink"
+      fullPath: "C:\\Users\\User\\Desktop\\RPokemonG-Lucas\\Unity\\Assets\\Sprites\\Cr\xE9atures\\pink"
+      projectPath: "Unity\\Assets\\Sprites\\Cr\xE9atures\\pink"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 91049ec5e333b1f105ea928cef7108c6d3ed9115
+    mergeA: 
+    mergeB: 
+    authorName: Lucas-Bracq
+    authorEmail: 49907533+Lucas-Bracq@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Create green
+    description: 
+    timeString: 2019-11-20T11:01:23.000+01:00
+    commitTimeString: 2019-11-20T11:01:23.000+01:00
+    changes:
+    - path: Unity\Assets\Sprites\green
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Unity\Assets\Sprites\green
+      projectPath: Unity\Assets\Sprites\green
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 4374443bcba6c5e1ef01a460fc29f04e13588fd1
+    mergeA: 
+    mergeB: 
+    authorName: Lucas-Bracq
+    authorEmail: 49907533+Lucas-Bracq@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Create blue
+    description: 
+    timeString: 2019-11-20T11:01:04.000+01:00
+    commitTimeString: 2019-11-20T11:01:04.000+01:00
+    changes:
+    - path: Unity\Assets\Scenes\blue
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Unity\Assets\Scenes\blue
+      projectPath: Unity\Assets\Scenes\blue
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: f9af29fdc1069fb5301fd3d0f3e07f19a8626589
+    mergeA: 
+    mergeB: 
+    authorName: Lucas-Bracq
+    authorEmail: 49907533+Lucas-Bracq@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Delete blue
+    description: 
+    timeString: 2019-11-20T11:00:50.000+01:00
+    commitTimeString: 2019-11-20T11:00:50.000+01:00
+    changes:
+    - path: Unity\Assets\Scene\blue
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Unity\Assets\Scene\blue
+      projectPath: Unity\Assets\Scene\blue
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+  - commitID: 3482a889cce0c94778fb77e82b089fa65ac09707
+    mergeA: 
+    mergeB: 
+    authorName: Lucas-Bracq
+    authorEmail: 49907533+Lucas-Bracq@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Create blue
+    description: 
+    timeString: 2019-11-20T11:00:15.000+01:00
+    commitTimeString: 2019-11-20T11:00:15.000+01:00
+    changes:
+    - path: Unity\Assets\Scene\blue
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Unity\Assets\Scene\blue
+      projectPath: Unity\Assets\Scene\blue
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 1868b7f35540a20972397646d172afc942366f08
+    mergeA: 
+    mergeB: 
+    authorName: Lucas-Bracq
+    authorEmail: 49907533+Lucas-Bracq@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Create red
+    description: 
+    timeString: 2019-11-20T10:59:51.000+01:00
+    commitTimeString: 2019-11-20T10:59:51.000+01:00
+    changes:
+    - path: Unity\Assets\Animations\red
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\Unity\Assets\Animations\red
+      projectPath: Unity\Assets\Animations\red
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: eccdf65a96b676b801924f7c477acc24d5248720
+    mergeA: 
+    mergeB: 
+    authorName: Lucas-Bracq
+    authorEmail: 49907533+Lucas-Bracq@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Create readme.txt
+    description: 
+    timeString: 2019-11-19T08:24:14.000+01:00
+    commitTimeString: 2019-11-19T08:24:14.000+01:00
+    changes:
+    - path: readme.txt
+      fullPath: C:\Users\User\Desktop\RPokemonG-Lucas\readme.txt
+      projectPath: readme.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
