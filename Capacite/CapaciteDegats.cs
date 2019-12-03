@@ -7,7 +7,7 @@ namespace RPokemonG{
             return puissance;
         }
 
-        public virtual void utiliser(Pokemon cible, Pokemon lanceur){
+        public new virtual void utiliser(Pokemon cible, Pokemon lanceur){
             base.utiliser(cible, lanceur);
             Random alea = new Random();
             int reussite = alea.Next(100) + 1;  //number between 0 and 99 + 1

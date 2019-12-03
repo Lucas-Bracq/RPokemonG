@@ -14,10 +14,11 @@ namespace RPokemonG
             vitesseBase = 40;
             capacitesApprenables = new e_Capacite[] {e_Capacite.Aromatherapie,
                                     e_Capacite.Canon_Floral,
+                                    e_Capacite.Giga_Sangsue,
+                                    e_Capacite.Pouvoir_Lunaire,
                                     e_Capacite.Synthese,
                                     e_Capacite.Tempete_Florale,
-                                    e_Capacite.Pouvoir_Lunaire,
-                                    e_Capacite.Giga_Sangsue};
+                                    };
         }
     }
 }

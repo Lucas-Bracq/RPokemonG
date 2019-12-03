@@ -4,7 +4,7 @@ namespace RPokemonG{
         Diabreaumon,
         Flianobab,
         Pikatique,
-        Polistune,
+        Politsune,
         Pyrizzai
 
     }

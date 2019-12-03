@@ -3,7 +3,7 @@ namespace RPokemonG{
         public CapacitePhys() : base(){
             categorie = e_Categorie.Physique;
         }
-        public virtual void utiliser(Pokemon cible, Pokemon lanceur){
+        public new virtual void utiliser(Pokemon cible, Pokemon lanceur){
             base.utiliser(cible, lanceur);
         }
 

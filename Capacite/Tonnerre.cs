@@ -4,14 +4,14 @@ namespace RPokemonG{
     class Tonnerre : CapaciteSpe {
         public Tonnerre() : base(){
             nom = e_Capacite.Tonnerre;
-            //type = electrique;
+            type = e_Type.Electrique;
             pp = 15;
             puissance = 90;
             precision = 100;
             description = "Une grosse décharge électrique tombe sur l'ennemi. Peut aussi le paralyser.";
         }
 
-        public void utiliser(Pokemon cible, Pokemon lanceur){ // changer la façon dont on récupère le lanceur
+        public new void utiliser(Pokemon cible, Pokemon lanceur){ // changer la façon dont on récupère le lanceur
             base.utiliser(cible, lanceur);
         }
         private void setEffets(Pokemon cible, Pokemon lanceur){
