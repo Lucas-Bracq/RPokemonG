@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1666186674, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 2
+  lastUpdatedAtString: 2019-12-04T09:06:05.848+01:00
+  initializedAtString: 2019-12-04T09:04:20.939+01:00
+  localBranches:
+  - name: master
+    tracking: 
+  - name: Maxime
+    tracking: origin/Maxime
+  remoteBranches:
+  - name: origin/Debug
+    tracking: '[None]'
+  - name: origin/Default
+    tracking: '[None]'
+  - name: origin/Florian
+    tracking: '[None]'
+  - name: origin/Laetitia
+    tracking: '[None]'
+  - name: origin/Lucas
+    tracking: '[None]'
+  - name: origin/master
+    tracking: '[None]'
+  - name: origin/Maxime
+    tracking: '[None]'
+  - name: origin/Maxime2
+    tracking: '[None]'
+  - name: origin/Thomas
+    tracking: '[None]'
+  remotes:
+  - name: origin
+    url: https://github.com/Lucas-Bracq/RPokemonG.git
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
+  localConfigBranches:
+    keys:
+    - master
+    - Maxime
+    values:
+    - name: master
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
+    - name: Maxime
+      remote:
+        name: origin
+        url: https://github.com/Lucas-Bracq/RPokemonG.git
+      trackingBranch: Maxime
+  remoteConfigBranches:
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - Debug
+      - Default
+      - Florian
+      - Laetitia
+      - Lucas
+      - master
+      - Maxime
+      - Maxime2
+      - Thomas
+    subKeyValues:
+    - Values:
+      - name: Debug
+        remote:
+          name: origin
+          url: https://github.com/Lucas-Bracq/RPokemonG.git
+        trackingBranch: 
+      - name: Default
+        remote:
+          name: origin
+          url: https://github.com/Lucas-Bracq/RPokemonG.git
+        trackingBranch: 
+      - name: Florian
+        remote:
+          name: origin
+          url: https://github.com/Lucas-Bracq/RPokemonG.git
+        trackingBranch: 
+      - name: Laetitia
+        remote:
+          name: origin
+          url: https://github.com/Lucas-Bracq/RPokemonG.git
+        trackingBranch: 
+      - name: Lucas
+        remote:
+          name: origin
+          url: https://github.com/Lucas-Bracq/RPokemonG.git
+        trackingBranch: 
+      - name: master
+        remote:
+          name: origin
+          url: https://github.com/Lucas-Bracq/RPokemonG.git
+        trackingBranch: 
+      - name: Maxime
+        remote:
+          name: origin
+          url: https://github.com/Lucas-Bracq/RPokemonG.git
+        trackingBranch: 
+      - name: Maxime2
+        remote:
+          name: origin
+          url: https://github.com/Lucas-Bracq/RPokemonG.git
+        trackingBranch: 
+      - name: Thomas
+        remote:
+          name: origin
+          url: https://github.com/Lucas-Bracq/RPokemonG.git
+        trackingBranch: 
+  configRemotes:
+    keys:
+    - origin
+    values:
+    - name: origin
+      url: https://github.com/Lucas-Bracq/RPokemonG.git

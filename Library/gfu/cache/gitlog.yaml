@@ -1,0 +1,1332 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2019-12-04T09:06:06.133+01:00
+  initializedAtString: 2019-12-04T09:04:12.661+01:00
+  log:
+  - commitID: 7c9ca3bdadb02a6f1ae7406e15738c959e6c3059
+    mergeA: 
+    mergeB: 
+    authorName: Maxime
+    authorEmail: maxime.henry.1@etu.univ-amu.fr
+    commitEmail: maxime.henry.1@etu.univ-amu.fr
+    commitName: Maxime
+    summary: Assets
+    description: 
+    timeString: 2019-12-04T09:05:30.000+01:00
+    commitTimeString: 2019-12-04T09:05:30.000+01:00
+    changes:
+    - path: Assets\Plugins.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins.meta
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor.meta
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.pdb
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Api.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.pdb.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Api.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 10f6ee2fde7ce91ec748a2f25d2b691ff2cabc26
+    mergeA: 
+    mergeB: 
+    authorName: Maxime
+    authorEmail: maxime.henry.1@etu.univ-amu.fr
+    commitEmail: maxime.henry.1@etu.univ-amu.fr
+    commitName: Maxime
+    summary: Ajout des Pokemon
+    description: 
+    timeString: 2019-12-03T11:39:53.000+01:00
+    commitTimeString: 2019-12-03T11:39:53.000+01:00
+    changes:
+    - path: Capacite\CapaciteDegats.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Capacite\CapaciteDegats.cs
+      projectPath: Capacite\CapaciteDegats.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Capacite\CapacitePhys.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Capacite\CapacitePhys.cs
+      projectPath: Capacite\CapacitePhys.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Capacite\CapaciteSpe.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Capacite\CapaciteSpe.cs
+      projectPath: Capacite\CapaciteSpe.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Capacite\CapaciteStatut.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Capacite\CapaciteStatut.cs
+      projectPath: Capacite\CapaciteStatut.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Capacite\Tonnerre.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Capacite\Tonnerre.cs
+      projectPath: Capacite\Tonnerre.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Pokemon\Carbrelace.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Carbrelace.cs
+      projectPath: Pokemon\Carbrelace.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Pokemon\Diabreaumon.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Diabreaumon.cs
+      projectPath: Pokemon\Diabreaumon.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Pokemon\Flianobab.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Flianobab.cs
+      projectPath: Pokemon\Flianobab.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Pokemon\Pikatique.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Pikatique.cs
+      projectPath: Pokemon\Pikatique.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Pokemon\Politsune.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Politsune.cs
+      projectPath: Pokemon\Politsune.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Pokemon\Pyrizzai.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Pyrizzai.cs
+      projectPath: Pokemon\Pyrizzai.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Pokemon\e_Pokemon.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\e_Pokemon.cs
+      projectPath: Pokemon\e_Pokemon.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: ac21a2a97c34bd8a391c255cd0469b892840303c
+    mergeA: 
+    mergeB: 
+    authorName: Maxime
+    authorEmail: maxime.henry.1@etu.univ-amu.fr
+    commitEmail: maxime.henry.1@etu.univ-amu.fr
+    commitName: Maxime
+    summary: Ajout des artworks
+    description: 
+    timeString: 2019-12-03T10:41:33.000+01:00
+    commitTimeString: 2019-12-03T10:41:33.000+01:00
+    changes:
+    - path: Artworks\Diabreaumon\DiabreaumonAR1.png
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Artworks\Diabreaumon\DiabreaumonAR1.png
+      projectPath: Artworks\Diabreaumon\DiabreaumonAR1.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Artworks\Diabreaumon\DiabreaumonAR2.png
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Artworks\Diabreaumon\DiabreaumonAR2.png
+      projectPath: Artworks\Diabreaumon\DiabreaumonAR2.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Artworks\Diabreaumon\DiabreaumonAR3.png
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Artworks\Diabreaumon\DiabreaumonAR3.png
+      projectPath: Artworks\Diabreaumon\DiabreaumonAR3.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Artworks\Diabreaumon\DiabreaumonAV1.png
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Artworks\Diabreaumon\DiabreaumonAV1.png
+      projectPath: Artworks\Diabreaumon\DiabreaumonAV1.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Artworks\Diabreaumon\DiabreaumonAV2.png
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Artworks\Diabreaumon\DiabreaumonAV2.png
+      projectPath: Artworks\Diabreaumon\DiabreaumonAV2.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Artworks\Diabreaumon\DiabreaumonAV3.png
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Artworks\Diabreaumon\DiabreaumonAV3.png
+      projectPath: Artworks\Diabreaumon\DiabreaumonAV3.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Artworks\Flianobab\FlianobabAV1.png
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Artworks\Flianobab\FlianobabAV1.png
+      projectPath: Artworks\Flianobab\FlianobabAV1.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Artworks\Flianobab\FlianobabAV2.png
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Artworks\Flianobab\FlianobabAV2.png
+      projectPath: Artworks\Flianobab\FlianobabAV2.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Artworks\Flianobab\FlianobabAV3.png
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Artworks\Flianobab\FlianobabAV3.png
+      projectPath: Artworks\Flianobab\FlianobabAV3.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Artworks\Pikatique\PikatiqueAR1.png
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Artworks\Pikatique\PikatiqueAR1.png
+      projectPath: Artworks\Pikatique\PikatiqueAR1.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Artworks\Pikatique\PikatiqueAR2.png
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Artworks\Pikatique\PikatiqueAR2.png
+      projectPath: Artworks\Pikatique\PikatiqueAR2.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Artworks\Pikatique\PikatiqueAR3.png
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Artworks\Pikatique\PikatiqueAR3.png
+      projectPath: Artworks\Pikatique\PikatiqueAR3.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Artworks\Pikatique\PikatiqueAV1.png
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Artworks\Pikatique\PikatiqueAV1.png
+      projectPath: Artworks\Pikatique\PikatiqueAV1.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Artworks\Pikatique\PikatiqueAV2.png
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Artworks\Pikatique\PikatiqueAV2.png
+      projectPath: Artworks\Pikatique\PikatiqueAV2.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Artworks\Pikatique\PikatiqueAV3.png
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Artworks\Pikatique\PikatiqueAV3.png
+      projectPath: Artworks\Pikatique\PikatiqueAV3.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Artworks\Politsune\PolitsuneAR1.png
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Artworks\Politsune\PolitsuneAR1.png
+      projectPath: Artworks\Politsune\PolitsuneAR1.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Artworks\Politsune\PolitsuneAR2.png
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Artworks\Politsune\PolitsuneAR2.png
+      projectPath: Artworks\Politsune\PolitsuneAR2.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Artworks\Politsune\PolitsuneAR3.png
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Artworks\Politsune\PolitsuneAR3.png
+      projectPath: Artworks\Politsune\PolitsuneAR3.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Artworks\Politsune\PolitsuneAV1.png
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Artworks\Politsune\PolitsuneAV1.png
+      projectPath: Artworks\Politsune\PolitsuneAV1.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Artworks\Politsune\PolitsuneAV2.png
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Artworks\Politsune\PolitsuneAV2.png
+      projectPath: Artworks\Politsune\PolitsuneAV2.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Artworks\Politsune\PolitsuneAV3.png
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Artworks\Politsune\PolitsuneAV3.png
+      projectPath: Artworks\Politsune\PolitsuneAV3.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 8dd7e2892c7a63840b58b25a73ff73996a4ff393
+    mergeA: 
+    mergeB: 
+    authorName: Maxime
+    authorEmail: maxime.henry.1@etu.univ-amu.fr
+    commitEmail: maxime.henry.1@etu.univ-amu.fr
+    commitName: Maxime
+    summary: "ajout Capacit\xE9s Flianobab"
+    description: 
+    timeString: 2019-12-03T10:33:12.000+01:00
+    commitTimeString: 2019-12-03T10:33:12.000+01:00
+    changes:
+    - path: Pokemon\Flianobab.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Flianobab.cs
+      projectPath: Pokemon\Flianobab.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Pokemon\Pokemon.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Pokemon.cs
+      projectPath: Pokemon\Pokemon.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 541c6cdf746765468768bc125d80494516e4323d
+    mergeA: 
+    mergeB: 
+    authorName: Maxime
+    authorEmail: maxime.henry.1@etu.univ-amu.fr
+    commitEmail: maxime.henry.1@etu.univ-amu.fr
+    commitName: Maxime
+    summary: nouveau test
+    description: 
+    timeString: 2019-12-03T10:10:45.000+01:00
+    commitTimeString: 2019-12-03T10:10:45.000+01:00
+    changes:
+    - path: .vs\ProjectSettings.json
+      fullPath: C:\Users\maxim\source\repos\Pokemon\.vs\ProjectSettings.json
+      projectPath: .vs\ProjectSettings.json
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: .vs\RPokemonG\v16\.suo
+      fullPath: C:\Users\maxim\source\repos\Pokemon\.vs\RPokemonG\v16\.suo
+      projectPath: .vs\RPokemonG\v16\.suo
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: .vs\RPokemonG\v16\Server\sqlite3\db.lock
+      fullPath: C:\Users\maxim\source\repos\Pokemon\.vs\RPokemonG\v16\Server\sqlite3\db.lock
+      projectPath: .vs\RPokemonG\v16\Server\sqlite3\db.lock
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: .vs\RPokemonG\v16\Server\sqlite3\storage.ide
+      fullPath: C:\Users\maxim\source\repos\Pokemon\.vs\RPokemonG\v16\Server\sqlite3\storage.ide
+      projectPath: .vs\RPokemonG\v16\Server\sqlite3\storage.ide
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: .vs\VSWorkspaceState.json
+      fullPath: C:\Users\maxim\source\repos\Pokemon\.vs\VSWorkspaceState.json
+      projectPath: .vs\VSWorkspaceState.json
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: .vs\slnx.sqlite
+      fullPath: C:\Users\maxim\source\repos\Pokemon\.vs\slnx.sqlite
+      projectPath: .vs\slnx.sqlite
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+  - commitID: cc3bbd79b5f23b82e272ea08666f8d721a2282b5
+    mergeA: 
+    mergeB: 
+    authorName: Maxime
+    authorEmail: maxime.henry.1@etu.univ-amu.fr
+    commitEmail: maxime.henry.1@etu.univ-amu.fr
+    commitName: Maxime
+    summary: "R\xE9organisation des capacit\xE9s"
+    description: 
+    timeString: 2019-11-27T17:37:22.000+01:00
+    commitTimeString: 2019-11-27T17:37:22.000+01:00
+    changes:
+    - path: Capacite\Capacite.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Capacite\Capacite.cs
+      projectPath: Capacite\Capacite.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Capacite\CapaciteDegats.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Capacite\CapaciteDegats.cs
+      projectPath: Capacite\CapaciteDegats.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Capacite\CapacitePhys.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Capacite\CapacitePhys.cs
+      projectPath: Capacite\CapacitePhys.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Capacite\CapaciteSpe.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Capacite\CapaciteSpe.cs
+      projectPath: Capacite\CapaciteSpe.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Capacite\CapaciteStatut.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Capacite\CapaciteStatut.cs
+      projectPath: Capacite\CapaciteStatut.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Capacite\Tonnerre.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Capacite\Tonnerre.cs
+      projectPath: Capacite\Tonnerre.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Capacite\e_Categorie.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Capacite\e_Categorie.cs
+      projectPath: Capacite\e_Categorie.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Nature\e_Nature.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Nature\e_Nature.cs
+      projectPath: Nature\e_Nature.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Pokemon\Flianobab.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Flianobab.cs
+      projectPath: Pokemon\Flianobab.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Pokemon\Pokemon.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Pokemon.cs
+      projectPath: Pokemon\Pokemon.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Statut\e_Statut.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Statut\e_Statut.cs
+      projectPath: Statut\e_Statut.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Talent\Talent.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Talent\Talent.cs
+      projectPath: Talent\Talent.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Type\e_Type.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Type\e_Type.cs
+      projectPath: Type\e_Type.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 468d0d5dcd5028f5d0cbdb1f152ea77ca184f480
+    mergeA: 
+    mergeB: 
+    authorName: Maxime
+    authorEmail: maxime.henry.1@etu.univ-amu.fr
+    commitEmail: maxime.henry.1@etu.univ-amu.fr
+    commitName: Maxime
+    summary: Organisation du code
+    description: 
+    timeString: 2019-11-27T15:06:31.000+01:00
+    commitTimeString: 2019-11-27T15:06:31.000+01:00
+    changes:
+    - path: Autre\Dresseur.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Autre\Dresseur.cs
+      projectPath: Autre\Dresseur.cs
+      originalPath: Pokemon\Dresseur.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Capacite\Capacite.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Capacite\Capacite.cs
+      projectPath: Capacite\Capacite.cs
+      originalPath: Pokemon\Capacite.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Capacite\CapaciteSpe.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Capacite\CapaciteSpe.cs
+      projectPath: Capacite\CapaciteSpe.cs
+      originalPath: Pokemon\CapaciteSpe.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Capacite\Tonnerre.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Capacite\Tonnerre.cs
+      projectPath: Capacite\Tonnerre.cs
+      originalPath: Pokemon\Tonnerre.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Capacite\e_Capacite.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Capacite\e_Capacite.cs
+      projectPath: Capacite\e_Capacite.cs
+      originalPath: Pokemon\e_Capacite.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Nature\Nature.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Nature\Nature.cs
+      projectPath: Nature\Nature.cs
+      originalPath: Pokemon\Nature.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Nature\e_Nature.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Nature\e_Nature.cs
+      projectPath: Nature\e_Nature.cs
+      originalPath: Pokemon\e_Nature.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Statut\e_Statut.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Statut\e_Statut.cs
+      projectPath: Statut\e_Statut.cs
+      originalPath: Pokemon\e_Statut.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Talent\Talent.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Talent\Talent.cs
+      projectPath: Talent\Talent.cs
+      originalPath: Pokemon\Talent.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Talent\e_Talent.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Talent\e_Talent.cs
+      projectPath: Talent\e_Talent.cs
+      originalPath: Pokemon\e_Talent.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Type\e_Type.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Type\e_Type.cs
+      projectPath: Type\e_Type.cs
+      originalPath: Pokemon\e_Type.cs
+      indexStatus: 6
+      workTreeStatus: 0
+  - commitID: 8d0d076b4fc7d550454edfcfebec7516f927c41d
+    mergeA: 
+    mergeB: 
+    authorName: Maxime
+    authorEmail: maxime.henry.1@etu.univ-amu.fr
+    commitEmail: maxime.henry.1@etu.univ-amu.fr
+    commitName: Maxime
+    summary: "Code sans erreurs + enum\xE9rateurs"
+    description: 
+    timeString: 2019-11-26T17:33:22.000+01:00
+    commitTimeString: 2019-11-26T17:33:22.000+01:00
+    changes:
+    - path: .vs\RPokemonG\v16\.suo
+      fullPath: C:\Users\maxim\source\repos\Pokemon\.vs\RPokemonG\v16\.suo
+      projectPath: .vs\RPokemonG\v16\.suo
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: .vs\VSWorkspaceState.json
+      fullPath: C:\Users\maxim\source\repos\Pokemon\.vs\VSWorkspaceState.json
+      projectPath: .vs\VSWorkspaceState.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: .vs\slnx.sqlite
+      fullPath: C:\Users\maxim\source\repos\Pokemon\.vs\slnx.sqlite
+      projectPath: .vs\slnx.sqlite
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Pokemon\Capacite.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Capacite.cs
+      projectPath: Pokemon\Capacite.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Pokemon\Dresseur.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Dresseur.cs
+      projectPath: Pokemon\Dresseur.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Pokemon\Flianobab.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Flianobab.cs
+      projectPath: Pokemon\Flianobab.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Pokemon\Nature.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Nature.cs
+      projectPath: Pokemon\Nature.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Pokemon\Pokemon.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Pokemon.cs
+      projectPath: Pokemon\Pokemon.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Pokemon\Tonnerre.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Tonnerre.cs
+      projectPath: Pokemon\Tonnerre.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Pokemon\e_Capacite.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\e_Capacite.cs
+      projectPath: Pokemon\e_Capacite.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Pokemon\e_Nature.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\e_Nature.cs
+      projectPath: Pokemon\e_Nature.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Pokemon\e_Pokemon.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\e_Pokemon.cs
+      projectPath: Pokemon\e_Pokemon.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Pokemon\e_Statut.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\e_Statut.cs
+      projectPath: Pokemon\e_Statut.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Pokemon\e_Talent.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\e_Talent.cs
+      projectPath: Pokemon\e_Talent.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Pokemon\e_Type.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\e_Type.cs
+      projectPath: Pokemon\e_Type.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: eeb70b346a9180ab1e3f36f01479d666756aec03
+    mergeA: 
+    mergeB: 
+    authorName: Maxime
+    authorEmail: maxime.henry.1@etu.univ-amu.fr
+    commitEmail: maxime.henry.1@etu.univ-amu.fr
+    commitName: Maxime
+    summary: Correction code
+    description: 
+    timeString: 2019-11-26T15:57:45.000+01:00
+    commitTimeString: 2019-11-26T15:57:45.000+01:00
+    changes:
+    - path: .vs\RPokemonG\v16\.suo
+      fullPath: C:\Users\maxim\source\repos\Pokemon\.vs\RPokemonG\v16\.suo
+      projectPath: .vs\RPokemonG\v16\.suo
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .vs\RPokemonG\v16\Server\sqlite3\db.lock
+      fullPath: C:\Users\maxim\source\repos\Pokemon\.vs\RPokemonG\v16\Server\sqlite3\db.lock
+      projectPath: .vs\RPokemonG\v16\Server\sqlite3\db.lock
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .vs\RPokemonG\v16\Server\sqlite3\storage.ide
+      fullPath: C:\Users\maxim\source\repos\Pokemon\.vs\RPokemonG\v16\Server\sqlite3\storage.ide
+      projectPath: .vs\RPokemonG\v16\Server\sqlite3\storage.ide
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .vs\VSWorkspaceState.json
+      fullPath: C:\Users\maxim\source\repos\Pokemon\.vs\VSWorkspaceState.json
+      projectPath: .vs\VSWorkspaceState.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .vs\slnx.sqlite
+      fullPath: C:\Users\maxim\source\repos\Pokemon\.vs\slnx.sqlite
+      projectPath: .vs\slnx.sqlite
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Pokemon\Capacite.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Capacite.cs
+      projectPath: Pokemon\Capacite.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Pokemon\CapaciteSpe.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\CapaciteSpe.cs
+      projectPath: Pokemon\CapaciteSpe.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Pokemon\Dresseur.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Dresseur.cs
+      projectPath: Pokemon\Dresseur.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Pokemon\Flianobab.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Flianobab.cs
+      projectPath: Pokemon\Flianobab.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Pokemon\Nature.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Nature.cs
+      projectPath: Pokemon\Nature.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Pokemon\Pokemon.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Pokemon.cs
+      projectPath: Pokemon\Pokemon.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Pokemon\Talent.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Talent.cs
+      projectPath: Pokemon\Talent.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Pokemon\Tonnerre.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Tonnerre.cs
+      projectPath: Pokemon\Tonnerre.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: RPokemonG.csproj
+      fullPath: C:\Users\maxim\source\repos\Pokemon\RPokemonG.csproj
+      projectPath: RPokemonG.csproj
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: RPokemonG.csproj.user
+      fullPath: C:\Users\maxim\source\repos\Pokemon\RPokemonG.csproj.user
+      projectPath: RPokemonG.csproj.user
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: RPokemonG.sln
+      fullPath: C:\Users\maxim\source\repos\Pokemon\RPokemonG.sln
+      projectPath: RPokemonG.sln
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      fullPath: C:\Users\maxim\source\repos\Pokemon\obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      projectPath: obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\x86\Debug\RPokemonG.csprojAssemblyReference.cache
+      fullPath: C:\Users\maxim\source\repos\Pokemon\obj\x86\Debug\RPokemonG.csprojAssemblyReference.cache
+      projectPath: obj\x86\Debug\RPokemonG.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: ee49fb979a2a41ea04194a47b80005d153076556
+    mergeA: 
+    mergeB: 
+    authorName: Maxime
+    authorEmail: maxime.henry.1@etu.univ-amu.fr
+    commitEmail: maxime.henry.1@etu.univ-amu.fr
+    commitName: Maxime
+    summary: Ajout de la fonction de combat et ajout de l'attaque tonnerre
+    description: 
+    timeString: 2019-11-22T16:31:30.000+01:00
+    commitTimeString: 2019-11-22T16:31:30.000+01:00
+    changes:
+    - path: Pokemon\Capacite.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Capacite.cs
+      projectPath: Pokemon\Capacite.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Pokemon\CapaciteSpe.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\CapaciteSpe.cs
+      projectPath: Pokemon\CapaciteSpe.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Pokemon\Nature.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Nature.cs
+      projectPath: Pokemon\Nature.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Pokemon\Pokemon.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Pokemon.cs
+      projectPath: Pokemon\Pokemon.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Pokemon\Tonnerre.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Tonnerre.cs
+      projectPath: Pokemon\Tonnerre.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 94e0e33497cde84b5a52b4acb805d25a7fc721f2
+    mergeA: 70487cf190b8b8a3ccc282ab44cfb28716c73b2c
+    mergeB: 8e6fcbcab1d8d21ac6f6cd5031d2f4dc48b6aeca
+    authorName: MaximeHenry
+    authorEmail: maxime.henry.1@etu.univ-amu.fr
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: 'Merge pull request #2 from Lucas-Bracq/Thomas'
+    description: modif nature
+    timeString: 2019-11-20T11:58:14.000+01:00
+    commitTimeString: 2019-11-20T11:58:14.000+01:00
+    changes: []
+  - commitID: 8e6fcbcab1d8d21ac6f6cd5031d2f4dc48b6aeca
+    mergeA: 
+    mergeB: 
+    authorName: Thomas Fillols
+    authorEmail: thomas.fillols@etu.univ-amu.fr
+    commitEmail: thomas.fillols@etu.univ-amu.fr
+    commitName: Thomas Fillols
+    summary: modif nature
+    description: 
+    timeString: 2019-11-20T11:56:28.000+01:00
+    commitTimeString: 2019-11-20T11:56:28.000+01:00
+    changes:
+    - path: .vs\ProjectSettings.json
+      fullPath: C:\Users\maxim\source\repos\Pokemon\.vs\ProjectSettings.json
+      projectPath: .vs\ProjectSettings.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .vs\slnx.sqlite
+      fullPath: C:\Users\maxim\source\repos\Pokemon\.vs\slnx.sqlite
+      projectPath: .vs\slnx.sqlite
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Pokemon\Nature.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Nature.cs
+      projectPath: Pokemon\Nature.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Pokemon\Pokemon.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Pokemon.cs
+      projectPath: Pokemon\Pokemon.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 70487cf190b8b8a3ccc282ab44cfb28716c73b2c
+    mergeA: eccdf65a96b676b801924f7c477acc24d5248720
+    mergeB: 83fba4ebbb4f350932b60ae08b772452b1a19a31
+    authorName: MaximeHenry
+    authorEmail: maxime.henry.1@etu.univ-amu.fr
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: 'Merge pull request #1 from Lucas-Bracq/Thomas'
+    description: "Debut des premi\xE8res classes"
+    timeString: 2019-11-20T11:02:41.000+01:00
+    commitTimeString: 2019-11-20T11:02:41.000+01:00
+    changes: []
+  - commitID: 83fba4ebbb4f350932b60ae08b772452b1a19a31
+    mergeA: 
+    mergeB: 
+    authorName: Fillols Thomas
+    authorEmail: 37699019+Thomas-Fillols@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: "Debut des premi\xE8re classe"
+    description: 
+    timeString: 2019-11-20T10:49:22.000+01:00
+    commitTimeString: 2019-11-20T10:49:22.000+01:00
+    changes:
+    - path: Pokemon\Capacite.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Capacite.cs
+      projectPath: Pokemon\Capacite.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Pokemon\Dresseur.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Dresseur.cs
+      projectPath: Pokemon\Dresseur.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Pokemon\Flianobab.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Flianobab.cs
+      projectPath: Pokemon\Flianobab.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Pokemon\Nature.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Nature.cs
+      projectPath: Pokemon\Nature.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Pokemon\Pokemon.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Pokemon.cs
+      projectPath: Pokemon\Pokemon.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Pokemon\Talent.cs
+      fullPath: C:\Users\maxim\source\repos\Pokemon\Pokemon\Talent.cs
+      projectPath: Pokemon\Talent.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: eccdf65a96b676b801924f7c477acc24d5248720
+    mergeA: 
+    mergeB: 
+    authorName: Lucas-Bracq
+    authorEmail: 49907533+Lucas-Bracq@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Create readme.txt
+    description: 
+    timeString: 2019-11-19T08:24:14.000+01:00
+    commitTimeString: 2019-11-19T08:24:14.000+01:00
+    changes:
+    - path: readme.txt
+      fullPath: C:\Users\maxim\source\repos\Pokemon\readme.txt
+      projectPath: readme.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
