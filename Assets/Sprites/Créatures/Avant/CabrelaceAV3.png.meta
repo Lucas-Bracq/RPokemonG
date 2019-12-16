@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3068f5aa2e6bdad409db79773e1ba24f
+guid: 966eca32bd52c064ba97ce8a3152633b
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -36,7 +36,7 @@ TextureImporter:
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -50,7 +50,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: 0
+  spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -60,7 +60,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -71,7 +71,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Standalone
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -82,7 +82,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: WebGL
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -95,38 +95,9 @@ TextureImporter:
     serializedVersion: 2
     sprites: []
     outline: []
-    physicsShape:
-    - - {x: 1250, y: 11.718749}
-      - {x: 1230.4688, y: -11.718749}
-      - {x: 1207.0312, y: 15.624999}
-      - {x: 1193.3594, y: -1.9531249}
-      - {x: 968.74994, y: 124.99999}
-      - {x: 960.93744, y: 126.95312}
-      - {x: 949.2187, y: 117.18749}
-      - {x: 957.0312, y: 197.26561}
-      - {x: 941.4062, y: 249.99998}
-      - {x: 890.62494, y: 306.64062}
-      - {x: 779.2968, y: 156.25}
-      - {x: 773.43744, y: 152.34375}
-      - {x: 757.81244, y: 249.99998}
-      - {x: 744.14056, y: 263.67188}
-      - {x: 689.45306, y: 183.59373}
-      - {x: 677.7343, y: 173.82811}
-      - {x: 673.82806, y: 142.57812}
-      - {x: 650.39056, y: 224.60936}
-      - {x: 630.8594, y: 248.04686}
-      - {x: 625, y: 244.14061}
-      - {x: 576.1719, y: 164.06248}
-      - {x: 689.45306, y: 1673.828}
-      - {x: 681.64056, y: 1703.1249}
-      - {x: -867.18744, y: 1703.1249}
-      - {x: -867.18744, y: -1623.0468}
-      - {x: 949.2187, y: -1623.0468}
-      - {x: 1324.2186, y: -70.3125}
-      - {x: 1324.2186, y: 56.64062}
-      - {x: 1318.3593, y: 58.593746}
+    physicsShape: []
     bones: []
-    spriteID: 016e490f0b226b14384bb83b3a364591
+    spriteID: 606d7ccef47cb1d4eabcf07e355f2b36
     vertices: []
     indices: 
     edges: []
